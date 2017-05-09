@@ -1,0 +1,33 @@
+ html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family:Arial;
+  }
+
+.home-page {
+  background:url("https://media.giphy.com/media/vvZeaCj5tf0qY/giphy.gif") no-repeat center center fixed;
+  height:100%;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+h1 {
+  margin:0;
+  padding-top:10%;
+  font-size:4vmax;
+}
+p {
+  font-size:2vmax;
+  color:white;
+}
+input[type="submit"] {
+    border:10px solid white;
+    background:transparent;
+    font-size:2vmax;
+    color:white;
+    border-radius:25px;
+}
